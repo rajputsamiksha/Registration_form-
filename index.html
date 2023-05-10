@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<h1>Student Registration form</h1>
+<p>Enter your details and submit this form to confirm your registration.</p>
+
+<!--input Table -->
+<table>
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <td><input type="text"name="fname"id="fname"></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="text"name="lname"id="lname"></td>
+        </tr>
+        <tr>
+            <th>Email </th>
+            <td><input type="text"name="email"id="email"></td>
+        </tr>
+        <tr>
+            <th>College Name</th>
+            <td><input type="text"name="admission"id="admission"></td>
+        </tr>
+        <tr>
+            <th>Admission</th>
+            <td><input type="text"name="admission"id="admission"></td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td><input type="text"name="age"id="age"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td><input type="text"name="gender"id="gender"></td>
+        </tr>
+        <tr>
+            <th>Course</th>
+            <td><input type="text"name="Course"id="Course"></td>
+        </tr>
+        <tr>
+            <th>Other Additional info</th>
+            <td><input type="text"name="info"id="info"></td>
+        </tr>
+        <!--Submit Button-->
+        <tr id="btna"align ="center">
+            <td colspan="2"><input type="button"id="btn"value="Submit"onclick="AddRow"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--Display table-->
+
+<table id="show">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>College Name</th>
+            <th>Admission</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>Other info</th>
+        </tr>
+    </thead>
+</table>
+<script src="form.js" defer> </script>
+<div class="footer-basic social">
+    <footer>
+                             <pclass="copyright>"Connect with me:-!!"</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://github.com/rajputsamiksha">GitHub</a></li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/samiksha-rajput-a9a551202">Linkedin</a></li>
+            <li class="list-inline-item"><a href="rajputsamiksha7373@gmail.com">Email</a></li>
+        </ul>
+     <p class="copyright">Built for Let's Grow More</p>
+    </footer>
+</div>
+</body>
+</html>
